@@ -56,28 +56,18 @@ public class td1 {
 	
 	
 	public static boolean croissantRecc(int[] t, int i){
-		if(t.length-2==i){
-			return(t[i]<=t[i+1]);
-		}else{
-			boolean a= croissantRecc(t,i+1);
-			if(t[i]<=t[i+1]){
-					return a;
-			}else{
-				return false;
-			}
-		}
-		
+		return(true);	
 	}
 	
 	public static boolean croissant(int[] t){
-		return croissantRecc(t,0);
+		return(true);
 	}
 
 	public static void main(String[] args) {
-		int[] a={1,2,3,4,5,6,7};
+		/*int[] a={1,2,3,4,5,6,7};
 		System.out.println("a croissant ?: "+croissant(a));
 		int[] b={1,2,3,4,5,8,7};
-		System.out.println("b croissant ?: "+croissant(b));
+		System.out.println("b croissant ?: "+croissant(b));*/
 
 	}
 
